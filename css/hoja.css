@@ -1,0 +1,314 @@
+*  
+
+{
+  
+ 
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+body {
+}
+#contenedor {
+	width: 1900px;
+	height: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../img/fondodegarde.png);
+}
+
+#contenedor header {
+    width: 1900px;
+    height: 200px;
+    background-position: center 0%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/castillo.png);
+}
+
+#logo {
+    width: 300px;
+    height: 170px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+#contenedor header nav {
+    width: 1900px;
+    height: 30px;
+    float: left;
+    background-color: #04C6F9;
+}
+
+
+
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+
+nav ul li {
+    width: 200px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    background-color: #04C6F9;
+}
+
+
+ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-family:"Libre Franklin", sans-serif;
+}
+ul li a:hover  {
+    color: #FFFFFF;
+    font-family: "Libre Franklin", sans-serif;
+    text-decoration: none;
+}
+#espaciador {
+    width: 650px;
+    height: 30px;
+    float: left;
+    background-color: #04C6F9;
+}
+
+#contenedor2 {
+    width: 1700px;
+    height: 800px;
+    float: left;
+}
+
+
+
+
+
+#contenedor main {
+	width: 1700px;
+	height: 400px;
+	float: left;
+}
+
+#contenedor main article {
+	width: 850px;
+	height: 200px;
+	float: left;
+	color: #FFFFFF;
+	font-family: "Libre Franklin", sans-serif;
+	font-size: 20px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+#contenedor2 main .img {
+    width: 850px;
+    height: 900px;
+    float: left;
+    background-image: url(../img/mickey.png);
+}
+
+.texto1 {
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+
+#contenedor2 main .video {
+	width: 850px;
+	height: 600px;
+	float: left;
+}
+#publicidad {
+    width: 200px;
+    height: 800px;
+    float: left;
+    background-image: url(../img/publcidad.png);
+}
+
+#soul {
+    width: 800px;
+    height: 800px;
+    float: left;
+    background-image: url(../img/degrade2.png);
+}
+.pelicula {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 28px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+#soul .texto {
+    width: 800px;
+    height: 480px;
+    float: left;
+    color: #F5F5F5;
+    font-size: 25px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+.contenidostitcth {
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 26px;
+    padding-right: 10px;
+}
+
+.titulo {
+    color: #FCFCFC;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 55px;
+    text-decoration: none;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.trailer {
+    width: 800px;
+    height: 320px;
+    float: left;
+    padding-left: 150px;
+}
+
+#personajes {
+    width: 1100px;
+    height: 800px;
+    float: left;
+    background-image: url(../img/degrade2.png);
+}
+
+#soul .claro {
+    width: 1900px;
+    height: 200px;
+    float: left;
+    background-image: url(../img/footersoul.png);
+}
+
+
+#stitch {
+    width: 900px;
+    height: 800px;
+    float: left;
+}
+
+#stitch article {
+    width: 900px;
+    height: 800px;
+    float: left;
+}
+#infopeli {
+    width: 800px;
+    height: 800px;
+    float: left;
+}
+
+
+
+
+
+.descpeli {
+    width: 800px;
+    height: 450px;
+    float: left;
+}
+.corto {
+    width: 800px;
+    height: 320px;
+    float: left;
+    padding-left: 20px;
+}
+
+
+
+#personajes article {
+    height: 800px;
+    width: 850px;
+    float: left;
+    background-image: url(../img/soul.png);
+}
+#redes {
+    width: 250px;
+    height: 800px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+#contenedor footer p {
+    color: #EAEAEA;
+    text-align: center;
+    text-decoration: none;
+    width: 1900px;
+    height: 100px;
+    float: left;
+    display: flex;
+    padding: 45px;
+    background-image: url(url);
+}
+.Contactanos {
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+}
+.Contactanos a {
+    margin-left: 55px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: none;
+}
+.Contactanos a:hover  {
+    margin-left: 45px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: none;
+}
