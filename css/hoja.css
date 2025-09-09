@@ -1,314 +1,286 @@
-*  
-
-{
-  
- 
-  font-family: "Libre Franklin", sans-serif;
+@charset "UTF-8";
+* {
+  font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 
 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
- 
-
-body {
+html {
+	font-size: 14px;
 }
 #contenedor {
-	width: 1900px;
-	height: 1200px;
-	margin-right: auto;
+	width: 90vw;
+	height: 300vh;
+	background-color: #848484;
 	margin-left: auto;
-	background-image: url(../img/fondodegarde.png);
+	margin-right: auto;
+	
 }
 
 #contenedor header {
-    width: 1900px;
-    height: 200px;
-    background-position: center 0%;
-    float: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../img/castillo.png);
+    width: 90vw;
+    height: 10vh;
+    font-size: 1rem;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    background-color: #8C5627;
 }
-
-#logo {
-    width: 300px;
-    height: 170px;
+#logo{
+    width: 20vw;
+    height: 10vh;
     float: left;
-    margin-left: 20px;
-    padding-top: 20px;
+    background-color: #8C5627;
+	
 }
-
-
-
-
-
-
-
 
 #contenedor header nav {
-    width: 1900px;
-    height: 30px;
-    float: left;
-    background-color: #04C6F9;
+	width: 70vw;
+	height: 10vh;
+	float: left
 }
-
-
-
+#logo img {
+    width: 67%;
+    height: auto;
+    padding-left: 8vw;
+    padding-top: 2vh;
+}
 
 header nav ul {
-    list-style-type: none;
+	list-style-type: none;
 }
-
-
-
 nav ul li {
-    width: 200px;
-    height: 30px;
+    width: calc(70vw /3);
+    height: 10vh;
     float: left;
-    line-height: 30px;
     text-align: center;
-    background-color: #04C6F9;
+    line-height: 10vh;
 }
-
-
 ul li a {
-    color: #000000;
-    text-decoration: none;
-    font-family:"Libre Franklin", sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 2rem;
 }
-ul li a:hover  {
-    color: #FFFFFF;
-    font-family: "Libre Franklin", sans-serif;
-    text-decoration: none;
-}
-#espaciador {
-    width: 650px;
-    height: 30px;
-    float: left;
-    background-color: #04C6F9;
-}
-
-#contenedor2 {
-    width: 1700px;
-    height: 800px;
-    float: left;
-}
-
-
-
-
-
 #contenedor main {
-	width: 1700px;
-	height: 400px;
-	float: left;
-}
-
-#contenedor main article {
-	width: 850px;
-	height: 200px;
-	float: left;
-	color: #FFFFFF;
-	font-family: "Libre Franklin", sans-serif;
-	font-size: 20px;
-	margin-bottom: 0px;
-	text-align: left;
-}
-#contenedor2 main .img {
-    width: 850px;
-    height: 900px;
+    width: 90vw;
+    height: 100vh;
     float: left;
-    background-image: url(../img/mickey.png);
+    margin-top: 10vh;
+    padding-left: 0px;
+    background-image: url(../img/inicio.jpg);
+    background-position: center 0%;
+    background-size: cover;
+}
+.kali {
+    color: #422B0E;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 8vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+.informacion {
+    color: #3D2C26;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    padding-top: 8vh;
+}
+.iconos {
+    padding-left: 42vw;
+    padding-right: 38vw;
+    padding-top: 3vh;
 }
 
-.texto1 {
-	padding-top: 30px;
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-bottom: 30px;
+
+.iconos a {
+    color: #3D2C26;
+}
+.fa-brands.fa-instagram {
+    color: #3D2C26;
+    font-size: 3em;
+    text-align: center;
+}
+.fa-brands.fa-facebook {
+    color: #3D2C26;
+    font-size: 3em;
+    text-align: center;
+}
+.fa-brands.fa-x-twitter {
+    color: #3D2C26;
+    font-size: 3em;
+    text-align: center;
 }
 
 
-#contenedor2 main .video {
-	width: 850px;
-	height: 600px;
-	float: left;
+
+
+
+
+.espaciador {
+	width: 90vw;
+	height: 20vh;
 }
-#publicidad {
-    width: 200px;
-    height: 800px;
+
+
+
+
+#sec1  {
+    width: 90vw;
+    height: 100vh;
     float: left;
-    background-image: url(../img/publcidad.png);
+    background-color: aqua;
 }
 
-#soul {
-    width: 800px;
-    height: 800px;
+.foto1 {
+    width: 30vw;
     float: left;
-    background-image: url(../img/degrade2.png);
-}
-.pelicula {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 28px;
-    padding-bottom: 20px;
+    height: 100vh;
+    background-color: #8C5627;
 }
 
 
-
-
-
-#soul .texto {
-    width: 800px;
-    height: 480px;
-    float: left;
-    color: #F5F5F5;
-    font-size: 25px;
-    font-family: "Libre Franklin", sans-serif;
-    font-weight: normal;
-    text-decoration: none;
-}
-.contenidostitcth {
-    color: #FFFFFF;
-    padding-top: 5px;
-    padding-left: 10px;
-    font-size: 26px;
-    padding-right: 10px;
-}
 
 .titulo {
-    color: #FCFCFC;
-    font-family: "Libre Franklin", sans-serif;
-    font-size: 55px;
-    text-decoration: none;
-    padding-top: 35px;
-    padding-right: 35px;
-    padding-left: 35px;
-    padding-bottom: 35px;
+    color: rgba(255,255,255,1.00);
+    font-size: 2rem;
     text-align: center;
+    padding-left: 9vw;
+    padding-right: 8vw;
+    padding-top: 3vh;
+    float: left;
     font-weight: bold;
 }
 
 
 
-.trailer {
-    width: 800px;
-    height: 320px;
-    float: left;
-    padding-left: 150px;
-}
-
-#personajes {
-    width: 1100px;
-    height: 800px;
-    float: left;
-    background-image: url(../img/degrade2.png);
-}
-
-#soul .claro {
-    width: 1900px;
-    height: 200px;
-    float: left;
-    background-image: url(../img/footersoul.png);
-}
-
-
-#stitch {
-    width: 900px;
-    height: 800px;
-    float: left;
-}
-
-#stitch article {
-    width: 900px;
-    height: 800px;
-    float: left;
-}
-#infopeli {
-    width: 800px;
-    height: 800px;
-    float: left;
-}
-
-
-
-
-
-.descpeli {
-    width: 800px;
-    height: 450px;
-    float: left;
-}
-.corto {
-    width: 800px;
-    height: 320px;
-    float: left;
-    padding-left: 20px;
-}
-
-
-
-#personajes article {
-    height: 800px;
-    width: 850px;
-    float: left;
-    background-image: url(../img/soul.png);
-}
-#redes {
-    width: 250px;
-    height: 800px;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-
-
-
-
-
-
-
-#contenedor footer p {
-    color: #EAEAEA;
+.descripcion {
+    color: rgba(255,255,255,1.00);
+    font-size: 2rem;
     text-align: center;
-    text-decoration: none;
-    width: 1900px;
-    height: 100px;
-    float: left;
-    display: flex;
-    padding: 45px;
-    background-image: url(url);
 }
+
+.ft2 {
+    width: 100%;
+    height: auto;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+
+.img2 {
+    width: 30vw;
+    height: 100vh;
+    float: left;
+    background-color: #8C5627;
+}
+.fto3 {
+    width: 30vw;
+    height: 100vh;
+    float: left;
+    background-color: #8C5627;
+}
+.f1 {
+    width: 100%;
+    height: auto;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+
+
+#sec2  {
+    width: 90vw;
+    height: 80vh;
+    float: left;
+}
+#contenedor #sec2 .nosotros {
+    width: 90vw;
+    height: 80vh;
+    float: left;
+}
+.contenido {
+    width: 30vw;
+    height: 80vh;
+    float: left;
+    background-color: #F2C288;
+}
+.fotoo4 {
+    width: 60vw;
+    height: 80vh;
+    float: left;
+}
+.fotoo4 img  {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+.acerca {
+    color: #3D2C26;
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 15vh;
+}
+.texto2  {
+    color: #3D2C26;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+
+#contenedor footer {
+    width: 90vw;
+    height: 20vh;
+    float: left;
+    background-color: #B0733D;
+}
+
+
 .Contactanos {
     color: #FDFDFD;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    line-height: 200px;
+    padding-top: 8vh;
 }
 .Contactanos a {
-    margin-left: 55px;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
     text-decoration: none;
     text-transform: none;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-right: 6vw;
 }
 .Contactanos a:hover  {
-    margin-left: 45px;
     color: #000000;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
     text-decoration: none;
     text-transform: none;
 }
