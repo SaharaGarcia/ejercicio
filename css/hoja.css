@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 html {
-	font-size: 16px;
+	font-size: 17px;
 }
 #grid_1 {
     width: 90vw;
@@ -115,7 +115,7 @@ main {
     font-size: 4rem;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 120px;
+    padding-top: 150px;
 }
 .descripcion {
     color: #FFFFFF;
