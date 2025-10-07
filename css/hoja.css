@@ -10,6 +10,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+	font-size: 16px;
+}
 #grid_1 {
     width: 90vw;
     height: 500vh;
@@ -20,9 +23,6 @@
 	grid-template-columns: 20vw repeat(4,1fr);
 	grid-template-rows:15vh 95vh 200vh 170vh auto;
 }
-html {
-	font-size: 18px;
-}
 
 
 header {
@@ -31,6 +31,7 @@ header {
 	background-color: brown;
 	position: fixed;
 }
+
 
 
 
